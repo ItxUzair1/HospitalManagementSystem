@@ -1,0 +1,20 @@
+To install this database on MySQL Workbench, you need to follow these steps:
+
+1. Open MySQL Workbench:
+ Launch MySQL Workbench on your computer.
+
+2. Connect to MySQL Server:
+ Connect MySQL Workbench to your MySQL Server instance. If you haven't set up a connection yet, you'll need to do so. Go to the "Database" menu and select "Connect to Database". Then enter your connection details (hostname, port, username, and password).
+
+3. Create a New Schema:
+ Right-click on the "SCHEMAS" tab in the sidebar of MySQL Workbench and select "Create Schema". Enter the name "HMS" for the new schema and click "Apply".
+
+4. Execute SQL Script:
+ Open a new SQL tab by clicking the "+" icon in the SQL editor. Copy the entire SQL script provided in your question and paste it into the SQL editor.
+
+5. Execute SQL Script:
+ Click the lightning bolt icon or go to the "Query" menu and select "Execute (All or Selection)" to execute the SQL script. This will create the tables and insert data into the HMS database.
+
+6. Verify Installation: Once the script has finished executing, you can verify that the database and tables were created successfully by expanding the "SCHEMAS" tab in MySQL Workbench and checking for the "HMS" schema. You can also query the tables to ensure that the data was inserted correctly.
+
+That's it! You have now installed the HMS (Hospital Management System) database on MySQL Workbench. You can now use it to manage hospital-related data and perform various operations on the database tables.
